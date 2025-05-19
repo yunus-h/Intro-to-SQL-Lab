@@ -78,6 +78,6 @@ WHERE countries.name = 'Brazil' AND cities.id = countries.capital;
 
 SELECT cities.name, cities.population, countries.name
 FROM cities JOIN countries ON cities.countrycode = countries.code
-WHERE cities.population = 91000;
+WHERE cities.population = 91084;
 
-\echo "She is in Najran, Saudi Arabia beacuse it's sunnier than Krasnogorsk"
+\echo "She is in Santa Monica, United States"
